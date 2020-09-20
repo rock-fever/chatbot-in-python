@@ -1,0 +1,38 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Please be more clear"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I am a introvert. You need to help me"],
+     "context": [""]
+    },
+    {"tag": "name",
+     "patterns": ["What is your name?", "Who are you?"],
+     "responses": ["My name is Jaarvis.", "I am Jaarvis but not smart as you", ""],
+     "context": [""]
+    },
+    {"tag": "know",
+     "patterns": ["Do you know me?", "Do you want to know about me?"],
+     "responses": ["Yes, tell about yourself", "Yes ofcourse, tell me something", "yes, carry on"],
+     "context": [""]
+    }
+]
+}
